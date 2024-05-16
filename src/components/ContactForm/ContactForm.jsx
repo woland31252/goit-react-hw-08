@@ -3,7 +3,8 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 
 import { useId } from "react";
 import * as Yup from "yup";
-import { addContact } from '../../redux/contactsOps.js';
+// import { addContact } from '../../redux/contactsOps.js';
+import { addContact } from "../../redux/contacts/operations.js";
 import clsx from 'clsx';
 import css from './ContactForm.module.css';
 
