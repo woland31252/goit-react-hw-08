@@ -26,7 +26,7 @@ export default function ContactsPage() {
   }, [dispatch]);
 
   return (
-    <div className={css.container}>
+    <div className={css.contactsContainer}>
       <h1 className={css.phoneTitle}>Phonebook</h1>
       <ContactForm />
       {isLoading && <Loader/>}
