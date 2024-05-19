@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 35px;
+    gap: 40px;
     width: 500px;
     margin: 0 auto;
     position: relative;
@@ -32,8 +32,39 @@
 
 .logInMessage {
     position: absolute;
-    top: 37px;
     left: 5px;
     font-weight: 400;
     color: red;
+}
+
+/* .logInErrorName {
+    top: 37px;
+} */
+
+.logInErrorEmail {
+    top: 37px;
+}
+
+.logInErrorPassw {
+    top: 115px;
+}
+
+.logInLable {
+    position: absolute;
+
+}
+
+/* .formRegName {
+    left: 8px;
+    top: -23px;
+} */
+
+.logInEmail {
+    left: 8px;
+    top: -23px;
+}
+
+.logInPassw {
+    left: 8px;
+    top: 55px;
 }
