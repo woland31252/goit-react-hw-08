@@ -3,4 +3,10 @@
     height: 600px;
     background-color: #c7f2df;
     text-align: center;
+    padding-top: 30px;
+}
+
+.regPageTitle {
+    font-size: 36px;
+    margin-bottom: 50px;
 }

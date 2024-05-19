@@ -1,9 +1,9 @@
 // Render Prop
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import css from '../RegistrationForm/RegistrationForm.module.css';
+import css from '../LoginForm/LoginForm.module.css';
 
-const RegistrationForm = () => (
-  <div className={css.regFormContainer}>
+const LoginForm = () => (
+  <div className={css.logInFormContainer}>
     {/* <h1>Any place in your app!</h1> */}
     <Formik
       initialValues={{ email: '', password: '' }}
@@ -26,13 +26,13 @@ const RegistrationForm = () => (
       }}
     >
       {({ isSubmitting }) => (
-        <Form className={css.regForm}>
-            <Field className={css.regInput} type="email" name="email" placeholder='Enter your email'/>
-                <ErrorMessage className={css.regMessage} name="email" component="div" />
-            <Field className={css.regInput} type="password" name="password" placeholder='Enter your password'/>
-                <ErrorMessage className={css.regMessage} name="password" component="div" />
-            <button className={css.regButton} type="submit" disabled={isSubmitting}>
-            Register
+        <Form className={css.logInForm}>
+            <Field className={css.logInInput} type="email" name="email" placeholder='Enter your email'/>
+                <ErrorMessage className={css.logInMessage} name="email" component="div" />
+            <Field className={css.logInInput} type="password" name="password" placeholder='Enter your password'/>
+                <ErrorMessage className={css.logInMessage} name="password" component="div" />
+            <button className={css.logInButton} type="submit" disabled={isSubmitting}>
+            Log In
           </button>
         </Form>
       )}
@@ -40,4 +40,4 @@ const RegistrationForm = () => (
   </div>
 );
 
-export default RegistrationForm;
+export default LoginForm;

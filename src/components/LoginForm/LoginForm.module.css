@@ -1,8 +1,4 @@
-/* .regFormContainer {
-
-} */
-
-.regForm {
+.logInForm {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +8,7 @@
     position: relative;
 }
 
-.regButton {
+.logInButton {
     width: 120px;
     padding: 8px;
     border-radius: 5px;
@@ -22,24 +18,22 @@
     font-weight: 600;
 }
 
-.regButton:hover {
+.logInButton:hover {
     background-color: rgb(45, 98, 221);
     transition: 400ms;
     color: beige;
 }
 
-.regInput {
+.logInInput {
     padding: 8px;
     border-radius: 5px;
     min-width: 100%;
 }
 
-.regMessage {
+.logInMessage {
     position: absolute;
     top: 37px;
     left: 5px;
     font-weight: 400;
     color: red;
 }
-
-        

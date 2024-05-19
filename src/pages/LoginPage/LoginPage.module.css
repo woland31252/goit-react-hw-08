@@ -1,0 +1,12 @@
+.logInContainer {
+    width: 100%;
+    height: 600px;
+    background-color: #dbf2c7;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.logInTitle {
+    font-size: 36px;
+    margin-bottom: 50px;
+}

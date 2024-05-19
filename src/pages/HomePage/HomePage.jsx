@@ -3,7 +3,7 @@ import css from '../HomePage/HomePage.module.css'
 export default function HomePage() {
     return (
         <div className={css.homePageContainer}>
-            <p>Home Page</p>
+            <h1 className={css.homePageTitle}>Phonebook Welcome Page</h1>
         </div>
         
     )

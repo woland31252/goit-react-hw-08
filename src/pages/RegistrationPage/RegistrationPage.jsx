@@ -4,7 +4,7 @@ import RegistrationForm from '../../components/RegistrationForm/RegistrationForm
 export default function RegistrationPage() {
     return (
         <div className={css.registrContainer}>
-            <p>Registration Page</p>
+            <h2 className={css.regPageTitle}>Registration Users</h2>
             <RegistrationForm/>
         </div>
         
