@@ -1,13 +1,7 @@
-// export default function ContactsPage() {
-//     return (
-//         <p>Contacts Page</p>
-//     )
-// }
 
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchContacts } from '../../redux/contacts/operations.js';
-// import { selectLoading, selectError } from '../../redux/contactsSlice.js';
 import { selectLoading, selectError } from '../../redux/contacts/selectors.js';
 import FetchError from '../../components/FetchError/FetchError.jsx';
 import ContactForm from '../../components/ContactForm/ContactForm.jsx';

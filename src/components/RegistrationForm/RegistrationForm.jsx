@@ -26,7 +26,7 @@ const RegistrationForm = () => {
 });
 
   const handleSubmit = (values, actions) => {
-    dispatch(register(values));
+    dispatch(register(values))
     actions.resetForm();
   }
   return (
